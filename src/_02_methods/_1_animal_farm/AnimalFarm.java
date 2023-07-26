@@ -28,7 +28,8 @@ public class AnimalFarm {
 		/* 1. Ask the user which animal they want, then see and hear 
 		 *    the animal they chose using one of the methods below.
 		*/			 
-			
+			//How to make the asking part, ask using the question prompt, save the answer and use it in a if-statement
+	//use an if/else statement
 		/* 2. Make it so that the user can keep entering new animals. */
 
 	}

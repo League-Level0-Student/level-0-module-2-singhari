@@ -29,9 +29,19 @@ if (randomNumber ==0) {
 	JOptionPane.showMessageDialog(null,er);
 }
 	// -- tell the user "Yes"
-
+if (randomNumber == 1) {
+	String er = "No";
+	JOptionPane.showMessageDialog(null, er);
+}
+if (randomNumber == 2) {
+	String er = "Maybe you ask Google?";
+	JOptionPane.showMessageDialog(null, er);
+}
 	// 5. If the random number is 1
-
+if (randomNumber == 3) {
+	String er = "You have no rizz";
+	JOptionPane.showMessageDialog(null, er);
+}
 	// -- tell the user "No"
 
 	// 6. If the random number is 2
