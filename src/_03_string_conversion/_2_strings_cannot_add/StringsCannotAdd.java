@@ -11,6 +11,11 @@ public class StringsCannotAdd {
 	String er = "Enter the number 6.";
 	String sixAsString =	JOptionPane.showInputDialog(null,er);
 		
+	
+	
+	
+	
+	
 	}
 			// 2) Ask the user to enter number 4 and hold it in the variable fourAsString 
 			
