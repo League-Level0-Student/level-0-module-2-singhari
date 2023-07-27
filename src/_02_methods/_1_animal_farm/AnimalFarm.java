@@ -32,6 +32,38 @@ public class AnimalFarm {
 	//use an if/else statement
 		/* 2. Make it so that the user can keep entering new animals. */
 
+		String cool = "Which animal do you want to see and hear?";
+	 String burger =JOptionPane.showInputDialog(null,cool);
+		
+	if(burger.equals("cow")) {
+		moo();
+	
+		
+	}
+		
+	if (burger.equals("cat")) {
+		meow();
+		
+	}
+	if (burger.equals("dog")) {
+		woof();
+		
+	}
+	if (burger.equals("duck")) {
+		quack();
+		
+	}
+	if (burger.equals("llama")) {
+		llamaScream();
+		
+	}
+	else {
+		
+		llamaScream();
+	}
+	
+		
+		
 	}
 
 	void moo() {
