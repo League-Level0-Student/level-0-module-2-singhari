@@ -7,9 +7,23 @@ public class RollerCoaster {
 	// 1) Make a main method that includes all the steps below…. 
 	public static void main(String[] args) {
 		// 2) Ask the user to enter their height in inches using JOptionPane and set it to the variable heightToRide
-		
+		String er = "Enter your height in inches";
+		String heightToRide = JOptionPane.showInputDialog(null,er);
 		// Uncomment the line below...
-			//if( heightToRide > 42 ) { }
+		int heightAsInt = Integer.parseInt(heightToRide);
+			if( heightAsInt >= 48 ) {
+				String here = "Hurray! You are tall enough to ride the coaster alone!";
+				JOptionPane.showInputDialog(null,here);
+			}
+			else if(heightAsInt >= 42) {
+				String here = "You can ride the coaster with someone else!";
+				JOptionPane.showInputDialog(null,here);
+			}
+			else {
+				String here = "You must be at least 42 inches tall to ride the roller coaster pal!";
+				JOptionPane.showInputDialog(null,here);
+				
+			}
 		
 		// Do you see the heightToRide > 42 underlined red? That is because you are comparing a STRING to an INTEGER.
 		

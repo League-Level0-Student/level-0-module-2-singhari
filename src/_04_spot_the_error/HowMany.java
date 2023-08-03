@@ -9,8 +9,8 @@ public class HowMany {
 	// Change one line of code to fix this program.
 	
 	public static void main(String[] args) {
-		int number = 0;
-		System.out.println(number);
+//getRandomNumber();
+		System.out.println(getRandomNumber());
 	}
 	
 	public static int getRandomNumber() {
