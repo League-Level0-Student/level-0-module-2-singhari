@@ -8,13 +8,19 @@ public class StringsCannotAdd {
 	public static void main(String[] args) {
 		String cool = "Enter the number 4.";
 	String fourAsString =	JOptionPane.showInputDialog(null,cool);
-	String er = "Enter the number 6.";
-	String sixAsString =	JOptionPane.showInputDialog(null,er);
-		
-	
-	
-	
-	
+	String ed = "Enter the number 6.";
+	String sixAsString =	JOptionPane.showInputDialog(null,ed);
+	String er = fourAsString+sixAsString;
+	JOptionPane.showMessageDialog(null,er);
+	String we = "Enter the number 5.";
+	String fiveAsString =	JOptionPane.showInputDialog(null,we);
+	String der = fourAsString+fiveAsString+sixAsString;
+	JOptionPane.showMessageDialog(null,der);
+	int fourAsInt = Integer.parseInt(fourAsString);
+	int fiveAsInt = Integer.parseInt(fiveAsString);
+	int sixAsInt = Integer.parseInt(sixAsString);
+	int r = fourAsInt+sixAsInt+fiveAsInt;
+	JOptionPane.showMessageDialog(null,r);
 	
 	}
 			// 2) Ask the user to enter number 4 and hold it in the variable fourAsString 
