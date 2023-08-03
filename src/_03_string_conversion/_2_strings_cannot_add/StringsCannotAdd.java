@@ -7,7 +7,7 @@ public class StringsCannotAdd {
 		// 1) Make a main method that includes all the steps below…. 
 	public static void main(String[] args) {
 		String cool = "Enter the number 4.";
-	String fourAsString =	JOptionPane.showInputDialog(null,cool);
+	String fourAsString = JOptionPane.showInputDialog(null,cool);
 	String ed = "Enter the number 6.";
 	String sixAsString =	JOptionPane.showInputDialog(null,ed);
 	String er = fourAsString+sixAsString;
